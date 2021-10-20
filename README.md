@@ -59,7 +59,7 @@ func main() {
 
 ```
 
-The above code secures `/` and `/query` endpoint with jwt middleware that validates a JWT from signed auth0 public JWKS url, its audience, and issuer - sending a request to these endpoints will require a valid JWT to be in Authorization header as bearer: `Authorization: Bearer abcd123456`
+The above code secures `/` and `/query` endpoint with jwt middleware that validates a JWT (signed with private key) using auth0 public JWKS url, its audience, and issuer - sending a request to these endpoints will require a valid JWT to be in Authorization header as bearer: `Authorization: Bearer abcd123456`
 
 TODO:
 
