@@ -1,4 +1,4 @@
-JWT Validator for Auth0 that caches public JWKS (since there is a limit on calls to public JWKS URL)
+JWT Validator for Auth0 (https://auth0.com/) that caches public JWKS (since there is a limit on calls to public JWKS URL)
 
 Example securing a `GraphQL` server using `chi-router`:
 
