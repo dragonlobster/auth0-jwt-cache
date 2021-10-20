@@ -1,6 +1,6 @@
 JWT Validator for Auth0 that caches public JWKS (since there is a limit on calls to public JWKS URL)
 
-example securing a `GraphQL` server using `chi-router`:
+Example securing a `GraphQL` server using `chi-router`:
 
 ```go
 package main
